@@ -40,6 +40,11 @@ namespace Decorador
 
             Console.WriteLine("-----------------------");
             Console.ReadKey();
+
+            //No podemos usar metodos especificos una vez que decoramos sobre ella
+
+            //((Nitrogeno)miAuto).UsaN();
+            //((Auto)miAuto).Puertas(false);
         }
     }
 }
